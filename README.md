@@ -28,30 +28,29 @@ Instead of browsing through a static website, users can interactively select cat
 
 ## 🛠 Technologies Used
 - React.js  
-- JavaScript (ES6+)  
+- JavaScript  
 - HTML5  
 - CSS3  
-- React Router (for future multi-page navigation)
-
+- React Router
 ---
 
 ## 📂 Project Structure
 
-
-src/
-├── components/
-│ ├── Cart.js
-│ ├── Categories.js
-│ ├── Contact.js
-│ ├── Footer.js
-│ ├── Header.js
-│ ├── Hero.js
-│ ├── Login.js
-│ ├── Products.js
-│ └── Story.js
-├── App.js
-├── App.css
-
+```
+src/   
+├── components/   
+│ ├── Cart.js   
+│ ├── Categories.js   
+│ ├── Contact.js   
+│ ├── Footer.js   
+│ ├── Header.js   
+│ ├── Hero.js   
+│ ├── Login.js   
+│ ├── Products.js   
+│ └── Story.js   
+├── App.js   
+├── App.css   
+```
 
 ---
 
@@ -60,45 +59,50 @@ src/
 Follow these steps to run the project locally:
 
 1️⃣ Clone the repository  
-```bash
-git clone https://github.com/lalithaswetha243/Handcrafted-Accessories-Hub.git
+```
+git clone https://github.com/swetha243/Handcrafted-Accessories-Hub.git
+```
 
 2️⃣ Navigate into the project folder
-
+```
 cd Handcrafted-Accessories-Hub
-
+```
 3️⃣ Install dependencies
-
+```
 npm install
-
+```
 4️⃣ Install React Router (optional)
-
+```
 npm install react-router-dom
-
+```
 5️⃣ Run the project
-
+```
 npm start
+```
+The app run at:
+```
+http://localhost:3000
+```
+---
 
-Default browser-la open aagum: http://localhost:3000
-
-🎯 Purpose of the Project
+## 🎯 Purpose of the Project
 
 This project demonstrates how a React-based frontend e-commerce system for handmade accessories makes browsing more interactive compared to a static website.
 Users can select categories, subcategories, view products, and manage their cart easily.
 
-🔮 Future Improvements
+---
 
-Add product quantity selection in cart
+## 🔮 Future Improvements
+- Add product quantity selection in cart
+- Integrate payment gateway for real purchases
+- Add product search functionality
+- Deploy website online
+- Deploy website online
+- Add user authentication (Login / Sign Up)
+- Integrate backend with Node.js and database
+- Implement payment gateway
 
-Integrate payment gateway for real purchases
+## 👨‍💻 Author
 
-Add product search functionality
-
-Deploy website online
-
-Improve UI/UX animations and responsiveness
-
-👨‍💻 Author
-
-Lalitha Swetha S
+Lalitha Swetha S   
 B.Tech Information Technology

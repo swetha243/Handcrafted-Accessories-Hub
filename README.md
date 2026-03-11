@@ -1,109 +1,70 @@
-# Handcrafted Accessories Hub
+# Getting Started with Create React App
 
-An interactive handmade accessories e-commerce frontend built using **React.js**.  
-This project allows users to browse different accessory categories, explore subcategories, view products, and add items to a cart.
+This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
 
-Instead of browsing through a static website, users can interactively select categories and subcategories to see products and manage their cart.
+## Available Scripts
 
----
+In the project directory, you can run:
 
-## 🚀 Features
+### `npm start`
 
-### 💬 Category & Subcategory Browsing
-- Users can select a category (Bags, Bracelets, Hair Bands, Keychains, Crochet).  
-- Subcategories appear on category click for more specific selection.
+Runs the app in the development mode.\
+Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-### 🛒 Add to Cart Functionality
-- Users can add products to a cart.  
-- Cart displays all selected items and supports item removal.
+The page will reload when you make changes.\
+You may also see any lint errors in the console.
 
-### 📦 Product Display
-- Shows product images and names.  
-- Dynamically filtered by selected subcategory.
+### `npm test`
 
-### 🎨 Responsive Design
-- Works well on desktop, tablet, and mobile screens.
+Launches the test runner in the interactive watch mode.\
+See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
----
+### `npm run build`
 
-## 🛠 Technologies Used
-- React.js  
-- JavaScript   
-- HTML5  
-- CSS3  
-- React Router 
----
+Builds the app for production to the `build` folder.\
+It correctly bundles React in production mode and optimizes the build for the best performance.
 
-## 📂 Project Structure
-```
-src/     
-├── components/    
-│ ├── Cart.js   
-│ ├── Categories.js   
-│ ├── Contact.js   
-│ ├── Footer.js   
-│ ├── Header.js   
-│ ├── Hero.js   
-│ ├── Login.js   
-│ ├── Products.js   
-│ └── Story.js  
-├── App.js   
-├── App.css
-```
+The build is minified and the filenames include the hashes.\
+Your app is ready to be deployed!
 
+See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
----
+### `npm run eject`
 
-## ⚙️ Installation
+**Note: this is a one-way operation. Once you `eject`, you can't go back!**
 
-Follow these steps to run the project locally:
+If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-1️⃣ Clone the repository  
-```
-git clone https://github.com/swetha243/Handcrafted-Accessories-Hub.git
-```
+Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
 
-2️⃣ Navigate into the project folder
-```
-cd Handcrafted-Accessories-Hub
-```
-3️⃣ Install dependencies
-```
-npm install
-```
-4️⃣ Install React Router (optional)
-```
-npm install react-router-dom
-```
-5️⃣ Run the project
-```
-npm start
-```
-The app will run at: 
-```
-http://localhost:3000
-```
----
+You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
 
-## 🎯 Purpose of the Project
+## Learn More
 
-This project demonstrates how a React-based frontend e-commerce system for handmade accessories makes browsing more interactive compared to a static website.
-Users can select categories, subcategories, view products, and manage their cart easily.
+You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
 
----
-## 🔮 Future Improvements
-- Add product quantity selection in cart
-- Integrate payment gateway for real purchases
-- Add product search functionality
-- Deploy website online
-- Improve UI/UX animations and responsiveness
-- Add user authentication
-- Integrate backend with Node.js and database
-- Implement payment gateway
+To learn React, check out the [React documentation](https://reactjs.org/).
 
----
+### Code Splitting
 
-## 👨‍💻 Author
+This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-Lalitha Swetha S   
-B.Tech Information Technology
+### Analyzing the Bundle Size
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+
+### Making a Progressive Web App
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+
+### Advanced Configuration
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+
+### Deployment
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+
+### `npm run build` fails to minify
+
+This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)

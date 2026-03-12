@@ -102,6 +102,8 @@ Users can select categories, subcategories, view products, and manage their cart
 - Integrate backend with Node.js and database
 - Implement payment gateway
 
+---
+
 ## 👨‍💻 Author
 
 Lalitha Swetha S   
